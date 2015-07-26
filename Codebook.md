@@ -16,7 +16,7 @@ This Codebook describes the structure of the table named final
 
 The other variables correspond to the average of each feature for a given subject and a given activity. The name of each average variable is based on the original name of each feature which has been lowecased and prefixed by "mean.", all "-" have been replaced by "." 
 As a reminder the features variables were already normalised and bounded within [-1,1].
-For more details about the description of the features and how they were obtained, please refer to files features_info.txt and READEME.txt which are available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+For more details about the description of the features and how they were obtained, please refer to files features_info.txt and README.txt which are available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Please note the following about the descriptive labels of the different variables:
 - The prefix t stands for time whereas the prefix f indicates frequency domain signals
 - The sensor signals are shortened into Acc for accelerometer and gyro for gyroscope

@@ -15,7 +15,7 @@ These files are currenlty available at : https://d396qusza40orc.cloudfront.net/g
 
 
 As a reminder, the features used were already normalised and bounded within [-1,1] in files X_test.txt and X_train.txt, the average of these values has been used.
-For more details about the description of the features and how they were obtained, please refer to files features_info.txt and READEME.txt which are available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+For more details about the description of the features and how they were obtained, please refer to files features_info.txt and README.txt which are available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 In order to run the run_analysis script, the reshape2 package should be installed as it will be loaded as part of the script.
 
