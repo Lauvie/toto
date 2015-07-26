@@ -21,14 +21,19 @@ In order to run the run_analysis script, the reshape2 package should be installe
 
 The script starts by loading the different files previously mentionned. 
 
-Descriptive column names (such as subject_nb, activity_labels or actibity_nb) are added to some of the tables to make them easier to use.
+Descriptive column names (such as subject.nb, activity.labels or actibity.nb) are added to some of the tables to make them easier to use.
 Table feature is then used to add the descriptive column names to tables x_train and x_test
 
 The training (X_train.txt, Y_train.txt) and the testing (X_test.txt, Y_test.txt) sets are then combined into one table. 
 Then measure variables which are not related to the mean or the standard deviation are removed. 
 Finaly the activity labels are added using using file activity_labels.txt.
 
-The script then goes to the creation of a the final table which provides for each subject and each activity the average of each feature. 
+The script then goes to the creation of a the final table which provides for each subject and each activity the average of each feature. The name of each average variable is based on the original name of each feature which has been lowecased and prefixed by "mean.", all "-" have been replaced by "." 
 This final table is called final
 
+To import file final.txt back into R, please use the following commands: 
+file_path <- "./final.txt"
+final <- read.table(file_path, header = TRUE)
 
+
+This document has been written with the help of the following thread : https://class.coursera.org/getdata-030/forum/thread?thread_id=37
