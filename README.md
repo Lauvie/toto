@@ -1,5 +1,3 @@
-# toto
-bdhjrgviudfhbvkdfuhkx
 \name{README}
 \alias{README}
 
