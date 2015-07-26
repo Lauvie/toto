@@ -14,9 +14,14 @@ activity_label : label of the activities:
 -	STANDING
 -	LAYING
 
-The other variables correspond to the average of each measure for a given subject and a given activity. 
-As a reminder the variables were already normalised and bounded within [-1,1]: 
+The other variables correspond to the average of each feature for a given subject and a given activity. 
+As a reminder the features variables were already normalised and bounded within [-1,1].
+Please note the following about the descriptive labels of the different variables:
+- the prefix t stands for time whereas the prefix f indicates frequency domain signals
+- The sensor signals are shortened into Acc for accelerometer and gyro for gyroscope
+- meand and std respectively refer to Mean value and Standard deviation
 
+List of variables:
 -       tBodyAcc-mean()-X_MEAN
 -       tBodyAcc-mean()-Y_MEAN
 -       tBodyAcc-mean()-Z_MEAN
