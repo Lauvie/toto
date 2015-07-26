@@ -1,7 +1,7 @@
 # README
 ## For script run_analysis
 
-The run analysis script uses the following files which should be downloaded before runing the script: 
+The run analysis script uses the following files which should be downloaded before running the script: 
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
