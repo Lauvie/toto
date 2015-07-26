@@ -1,8 +1,7 @@
-\name{README}
-\alias{README}
+# README
+## For script run_analysis
 
-\title{Run_Analysis script}
-The run analysis script uses the following files : 
+The run analysis script uses the following files: 
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
